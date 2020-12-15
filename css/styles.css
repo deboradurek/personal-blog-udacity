@@ -16,9 +16,24 @@ header {
   top: 0;
 }
 
-.container-inside {
-  display: flex;
+.main-container {
   justify-content: center;
   background-color: aqua;
   border: 1px solid red;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 5% 15%;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
 }

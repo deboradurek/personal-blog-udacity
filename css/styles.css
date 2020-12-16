@@ -16,15 +16,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2px 32px;
+  padding: 12px 32px 4px 0;
   position: sticky;
   top: 0;
   background-color: #53c7f0;
+  z-index: 1;
 }
 
 .logo {
   font: bold 1.3rem "Baloo Da 2", cursive;
-  color: #c24914;
+  color: #13334c;
 }
 
 header ul {
@@ -39,17 +40,12 @@ header li {
 
 header a {
   text-decoration: none;
-  color: #cf560a;
-  opacity: 0.75;
+  color: #13334c;
   transition: opacity 0.2s ease-in-out;
 }
 
 header a:hover {
-  opacity: 1;
-}
-
-.nested-container {
-  /* justify-content: center; */
+  opacity: 0.75;
 }
 
 .main-ctn {
@@ -59,7 +55,7 @@ header a:hover {
 }
 
 .title {
-  color: #13334c;
+  color: #9c0f0f;
   font: bold 5rem/1.2 "Baloo Da 2", cursive;
   padding: 0 200px;
 }
@@ -79,7 +75,6 @@ header a:hover {
   border: 1px solid #53c7f0;
   border-radius: 15px;
   overflow: hidden;
-  cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 
@@ -94,10 +89,49 @@ header a:hover {
 }
 
 .card-content {
-  padding: 12px 28px;
+  padding: 12px 24px 40px;
   font: normal 1.2rem/1.7 "Lato", sans-serif;
 }
 
-footer {
+.card-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 24px;
   background-color: #53c7f0;
+  font: normal 1rem "Lato", sans-serif;
+  cursor: pointer;
+  margin-top: 14px;
+  outline: none;
+  color: #ffffe3;
+}
+
+.card-btn:hover {
+  opacity: 0.75;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #13334c;
+  font: 300 0.9rem "Lato", sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: #ffffe3;
+  padding: 100px 0 28px 0;
+}
+
+.social-icons-group {
+  margin: 0 0 48px;
+}
+
+.social-icon {
+  font-size: 1.8rem;
+  color: #ffffe3;
+  padding: 0 12px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+  color: #87e0ff;
 }

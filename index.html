@@ -3,7 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Blog</title>
+    <title>Olsen George's Personal Blog</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -22,8 +30,12 @@
 
   <body>
     <div class="container">
-      <header class="nested-container">
-        <div class="logo">Olsen George's Blog</div>
+      <!-- NavBar -->
+      <header>
+        <div class="logo">
+          <img src="images/golden-retriever.png" alt="golden-retriever" />
+          <h4>Olsen George's Personal Blog</h4>
+        </div>
         <ul>
           <li><a href="">Home</a></li>
           <li><a href="">Blog Posts</a></li>
@@ -32,12 +44,13 @@
         </ul>
       </header>
 
-      <main class="nested-container main-ctn">
+      <!-- Blog Post Cards -->
+      <main class="main-ctn">
         <h1 class="title">The Wonders Of Being A Golden</h1>
 
         <div class="cards-container">
           <article class="card">
-            <img src="images/olsen-rock.jpg" alt="olsen-rock" />
+            <img src="images/olsen-smile.jpg" alt="olsen-smile" />
             <div class="card-content">
               <h2>Nunc sed id semper</h2>
               <p>
@@ -45,11 +58,12 @@
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ultrices vitae auctor eu augue ut.
               </p>
+              <input class="card-btn" type="button" value="Read More" />
             </div>
           </article>
 
           <article class="card">
-            <img src="images/olsen-mud.jpg" alt="olsen-rock" />
+            <img src="images/olsen-rock.jpg" alt="olsen-rock" />
             <div class="card-content">
               <h2>Tellus in hac</h2>
               <p>
@@ -58,49 +72,76 @@
                 Vestibulum lorem sed risus ultricies tristique nulla aliquet
                 enim.
               </p>
+              <input class="card-btn" type="button" value="Read More" />
             </div>
           </article>
 
           <article class="card">
-            <h2>Nunc sed id semper</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ultrices vitae auctor.
-            </p>
+            <img src="images/olsen-mud.jpg" alt="olsen-mud" />
+            <div class="card-content">
+              <h2>Feugiat scelerisque varius</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ultrices vitae auctor eu augue ut.
+              </p>
+              <input class="card-btn" type="button" value="Read More" />
+            </div>
           </article>
 
           <article class="card">
-            <h2>Nunc sed id semper</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ultrices vitae auctor.
-            </p>
+            <img src="images/olsen-starbucks.jpeg" alt="olsen-starbucks" />
+            <div class="card-content">
+              <h2>Sapien eget mi</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Vestibulum lorem sed risus ultricies tristique nulla aliquet
+                enim.
+              </p>
+              <input class="card-btn" type="button" value="Read More" />
+            </div>
           </article>
 
           <article class="card">
-            <h2>Nunc sed id semper</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ultrices vitae auctor.
-            </p>
+            <img src="images/olsen-friends.JPG" alt="olsen-friends" />
+            <div class="card-content">
+              <h2>Sed enim ut</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ultrices vitae auctor eu augue ut.
+              </p>
+              <input class="card-btn" type="button" value="Read More" />
+            </div>
           </article>
 
           <article class="card">
-            <h2>Nunc sed id semper</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ultrices vitae auctor.
-            </p>
+            <img src="images/olsen-sunglasses.jpg" alt="olsen-sunglasses" />
+            <div class="card-content">
+              <h2>Massa tempor nec</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Vestibulum lorem sed risus ultricies tristique nulla aliquet
+                enim.
+              </p>
+              <input class="card-btn" type="button" value="Read More" />
+            </div>
           </article>
         </div>
       </main>
 
-      <footer class="nested-container">
-        <p>Footer</p>
+      <!-- Footer -->
+      <footer>
+        <div class="social-icons-group">
+          <a href=""><i class="fas fa-envelope social-icon"></i></a>
+          <a href=""><i class="fab fa-instagram social-icon"></i></a>
+          <a href=""><i class="fab fa-twitter social-icon"></i></a>
+          <a href=""><i class="fab fa-facebook social-icon"></i></a>
+          <a href=""><i class="fab fa-linkedin-in social-icon"></i></a>
+        </div>
+        <p>© 2020 Olsen George's Blog.</p>
       </footer>
     </div>
   </body>

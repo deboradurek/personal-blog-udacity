@@ -16,15 +16,26 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 32px 4px 0;
+  padding-right: 32px;
   position: sticky;
   top: 0;
   background-color: #53c7f0;
   z-index: 1;
 }
 
-.logo {
-  font: bold 1.3rem "Baloo Da 2", cursive;
+.image-header {
+  display: flex;
+  align-items: center;
+}
+
+.image-header img {
+  display: block;
+  padding: 20px 28px 0 0;
+}
+
+.image-header h2 {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: bold;
   color: #13334c;
 }
 

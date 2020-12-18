@@ -57,7 +57,7 @@ header ul {
 
 header li {
   display: inline;
-  padding-left: 16px;
+  padding-left: 40px;
   font: bold clamp(0.6rem, 2vw, 1.1rem) "Baloo Da 2", cursive;
 }
 
@@ -114,6 +114,13 @@ header a:hover {
   padding: 12px 24px 40px;
   font-family: "Lato", sans-serif;
   line-height: 1.7;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-content p {
+  flex-grow: 1;
 }
 
 .card-btn {
@@ -160,10 +167,10 @@ footer {
 }
 
 .credits {
-  font-size: clamp(0.7rem, 1vw, 1rem);
+  font-size: clamp(0.7rem, 1.5vw, 1.1rem);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .image-header img {
     width: 24%;
     padding: 12px 16px 0 0;
@@ -176,5 +183,15 @@ footer {
   .cards-container {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     margin: 0 8% 20%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cards-container {
+    margin: 5%;
+  }
+
+  header li {
+    padding-left: 16px;
   }
 }

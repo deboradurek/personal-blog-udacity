@@ -20,6 +20,8 @@ p {
   min-height: 100%;
 }
 
+/* NavBar */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -70,6 +72,8 @@ header a {
 header a:hover {
   opacity: 0.75;
 }
+
+/* Blog Post Cards */
 
 .main-ctn {
   background-color: #87e0ff;
@@ -139,6 +143,8 @@ header a:hover {
   opacity: 0.75;
 }
 
+/* Footer */
+
 footer {
   display: flex;
   flex-direction: column;
@@ -170,6 +176,8 @@ footer {
   font-size: clamp(0.7rem, 1.5vw, 1.1rem);
 }
 
+/* Mobile Responsive */
+
 @media (max-width: 767px) {
   .image-header img {
     width: 24%;
@@ -185,6 +193,8 @@ footer {
     margin: 0 8% 20%;
   }
 }
+
+/* Tablet Responsive*/
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .cards-container {

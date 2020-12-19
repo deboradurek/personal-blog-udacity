@@ -85,6 +85,7 @@ figcaption {
   justify-content: space-evenly;
   max-width: 1024px;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .link-to-posts img {
@@ -115,4 +116,38 @@ figcaption {
 
 .card-link-content h5 {
   margin: 0 0 12px;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 767px) {
+  .container-author-info {
+    margin: 0 auto;
+    padding: 20px 0 52px;
+    max-width: 80vw;
+  }
+
+  .img-post1-portrait {
+    width: 80vw;
+  }
+
+  .img-post1-landscape {
+    width: 80vw;
+  }
+
+  .post-text {
+    max-width: 300px;
+  }
+
+  .link-title {
+    max-width: 250px;
+  }
+
+  .link-card {
+    margin-bottom: 28px;
+  }
+
+  /* .link-to-posts img {
+    max-width: 180px;
+  } */
 }

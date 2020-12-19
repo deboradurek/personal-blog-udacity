@@ -69,3 +69,50 @@ figcaption {
   margin: 40px 0;
   padding-left: 40px;
 }
+
+.link-title {
+  font-family: "Baloo Da 2", cursive;
+  color: #53c7f0;
+  max-width: 400px;
+  border-top: 1px dotted #53c6f036;
+  border-width: 7px;
+  margin: 110px auto 0;
+  padding: 50px 0 20px;
+}
+
+.link-to-posts {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.link-to-posts img {
+  max-width: 230px;
+}
+
+.link-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #53c7f0;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.link-card:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.card-link-content {
+  padding: 12px 24px 32px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-link-content h5 {
+  margin: 0 0 12px;
+}

@@ -38,21 +38,6 @@
 
 /* Article Text and Images */
 
-.container-blog-post a {
-  text-decoration: none;
-  color: #13334c;
-}
-
-.post-date {
-  font-style: italic;
-  font-weight: 300;
-  text-decoration: underline;
-}
-
-.post-date:hover {
-  opacity: 0.75;
-}
-
 .img-post1-portrait {
   width: 650px;
   border-radius: 8%;

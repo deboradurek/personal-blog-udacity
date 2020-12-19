@@ -100,7 +100,7 @@ header a:hover {
 /* Blog Post Cards */
 
 .main-ctn {
-  background-color: #87e0ff;
+  background-color: #ccf2ff;
   text-align: center;
   padding-bottom: 100px;
 }
@@ -150,6 +150,11 @@ header a:hover {
   flex-grow: 1;
 }
 
+.post-date {
+  font-style: italic;
+  font-weight: 300;
+}
+
 .card-btn {
   border: none;
   border-radius: 10px;
@@ -192,7 +197,7 @@ footer {
 }
 
 .social-icon:hover {
-  color: #87e0ff;
+  color: #ccf2ff;
 }
 
 .credits {

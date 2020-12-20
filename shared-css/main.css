@@ -1,0 +1,42 @@
+/* Blog Post Cards */
+
+.main-ctn {
+  background-color: #ccf2ff;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.title {
+  color: #9c0f0f;
+  font: bold 5rem/1.2 "Baloo Da 2", cursive;
+  padding: 2% 12% 0;
+}
+
+.post-date {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.card-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 24px;
+  background-color: #53c7f0;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  cursor: pointer;
+  margin-top: 14px;
+  outline: none;
+  color: #ffffe3;
+}
+
+.card-btn:hover {
+  opacity: 0.75;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 767px) {
+  .title {
+    font: bold 3rem/1.2 "Baloo Da 2", cursive;
+  }
+}

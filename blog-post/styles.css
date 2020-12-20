@@ -1,3 +1,5 @@
+@import "../shared-css/styles.css";
+
 .container-blog-post {
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -149,7 +151,7 @@ figcaption {
   }
 }
 
-/* Tablet Responsive*/
+/* Tablet Responsive */
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .container-author-info {

@@ -43,7 +43,7 @@
         <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="../blog-post/index.html">Blog Posts</a></li>
-          <li><a href="">Subscribe</a></li>
+          <li><a href="#footer">Subscribe</a></li>
           <li><a href="mailto:example@example.ca">Contact</a></li>
         </ul>
       </header>
@@ -161,7 +161,18 @@
       </main>
 
       <!-- Footer -->
-      <footer>
+      <footer id="footer">
+        <div class="subscribe-form">
+          <h2>Join the PUPSLETTER today!</h2>
+          <form action="" class="subscribe-form-text">
+            <label for="name">Name</label>
+            <input type="text" name="name" />
+            <label for="email_address">Email</label>
+            <input type="email" name="email_address" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+
         <div class="social-icons-group">
           <a href="mailto:example@example.ca"
             ><i class="fas fa-envelope social-icon"></i

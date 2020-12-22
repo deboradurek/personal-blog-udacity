@@ -40,6 +40,10 @@
 
 /* Article Text and Images */
 
+figure {
+  margin: 0 20px;
+}
+
 .img-post1-portrait {
   width: 650px;
   border-radius: 8%;
@@ -52,12 +56,6 @@
 
 figcaption {
   padding: 12px;
-}
-
-.post-text {
-  max-width: 800px;
-  margin: 52px auto 32px;
-  text-align: left;
 }
 
 .post-text p {
@@ -138,10 +136,6 @@ figcaption {
     width: 80vw;
   }
 
-  .post-text {
-    max-width: 300px;
-  }
-
   .link-title {
     max-width: 250px;
   }
@@ -166,10 +160,6 @@ figcaption {
 
   .img-post1-landscape {
     width: 80vw;
-  }
-
-  .post-text {
-    max-width: 500px;
   }
 
   .card-link-content h4 {

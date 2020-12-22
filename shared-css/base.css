@@ -48,6 +48,22 @@ p {
   min-height: 100%;
 }
 
+.primary-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 24px;
+  background-color: #53c7f0;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 14px;
+  outline: none;
+  color: #ffffe3;
+}
+
+.primary-btn:hover {
+  opacity: 0.75;
+}
+
 /* Mobile Responsive */
 
 @media (max-width: 767px) {

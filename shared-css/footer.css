@@ -9,7 +9,7 @@ footer {
   letter-spacing: 1px;
   word-spacing: 2px;
   color: #ffffe3;
-  padding: 350px 0 40px 0;
+  padding: 380px 0 40px 0;
   position: relative;
 }
 
@@ -31,6 +31,7 @@ footer {
   margin: 0;
   font-family: "Baloo Da 2", cursive;
   color: #13334c;
+  text-align: center;
 }
 
 .subscribe-form-text {
@@ -89,4 +90,16 @@ input {
 
 .credits {
   font-size: 0.9rem;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 767px) {
+  footer {
+    padding-top: 412px;
+  }
+
+  .subscribe-form {
+    border-radius: 0;
+  }
 }

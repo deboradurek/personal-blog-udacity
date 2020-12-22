@@ -48,20 +48,44 @@ p {
   min-height: 100%;
 }
 
-.primary-btn {
+.primary-btn,
+.secondary-btn {
   border: none;
   border-radius: 10px;
   padding: 10px 24px;
-  background-color: #53c7f0;
   font-size: 1rem;
   cursor: pointer;
-  margin-top: 14px;
   outline: none;
   color: #ffffe3;
 }
 
-.primary-btn:hover {
+.primary-btn:hover,
+.secondary-btn:hover {
   opacity: 0.75;
+}
+
+.primary-btn {
+  background-color: #53c7f0;
+}
+
+.secondary-btn {
+  background-color: #9c0f0f;
+}
+
+.text-field-label {
+  display: block;
+  margin: 28px 0 8px;
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+
+.text-field {
+  padding: 8px;
+  border-style: none;
+  border-radius: 4px;
+  outline: none;
+  color: #13334c;
+  font-size: 1rem;
 }
 
 /* Mobile Responsive */

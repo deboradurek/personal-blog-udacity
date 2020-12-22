@@ -41,36 +41,12 @@ footer {
   max-width: 250px;
 }
 
-label {
-  display: block;
-  margin: 28px 0 8px;
-  font-weight: normal;
-  font-size: 1.1rem;
-}
-
-input {
-  padding: 8px;
-  border-style: none;
-  border-radius: 4px;
-  outline: none;
-  color: #13334c;
-}
-
 .subscribe-form-text input {
-  font-size: 1rem;
   width: 100%;
 }
 
 .subscribe-form-text button {
-  border: none;
-  border-radius: 10px;
-  padding: 10px 24px;
-  background-color: #9c0f0f;
-  font-size: 1rem;
-  cursor: pointer;
   margin: 32px auto 0;
-  outline: none;
-  color: #ffffe3;
 }
 
 .social-icons-group {
